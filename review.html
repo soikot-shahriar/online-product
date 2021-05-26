@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../shithy/style/review.css">
+    <title>Review</title>
+</head>
+<body>
+    <div class="menudropdown1">
+      <ul>
+        <a href="home.html"><li>Home</li></a>
+        <li> Services
+          <ul>
+           <a href="product.html"><li>About Product</li></a>
+          <a href="review.html"><li>Reviews</li></a>
+          </ul>
+        </li>
+        <a href="query.html"><li>Query</li></a>
+        <a href="about.html"><li>About Us</li></a>
+        <a href="log.html"><li>Logout</li></a>
+       </ul>
+        </div>
+
+        <div id="respond">
+
+            <h3>Leave a Review</h3>
+          
+            <form  method="post" id="commentform">
+          
+              <label for="comment_author" class="required">Your name</label>
+              <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+          
+              <label for="email" class="required">Your email;</label>
+              <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+          
+              <label for="comment" class="required">Your message</label>
+              <textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+          
+              
+              <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+              <input name="submit" type="submit" value="Submit comment" />
+          
+            </form>
+          
+          </div>
+</body>
+</html>
